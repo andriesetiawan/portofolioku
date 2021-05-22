@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Cecep Maulana" />
+    <meta name="keywords" content="Landing Page Website, Portofolio Andri Setiawan, Profil Andri Setiawan" />
+    <meta name="description" content="Website Portofolio Andri Setiawan" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--<link rel="shortcut icon" href="assets/img/favIcon.png" type="image/x-icon" />-->
+    <title>Profil | Andri Setiawan</title>
+  </head>
+  <body>
+    <!-- Basic Background -->
+    <div class="basicBg"></div>
+
+    <!-- Navbar -->
+    <nav>
+      <div class="navOne">
+        <img src="assets/img/1.jpg" alt="Foto" />
+        <h2>Andri Setiawan<span>Web Developer</span></h2>
+        <button>
+          <div class="btOne"></div>
+          <div class="btTwo"></div>
+          <div class="btThree"></div>
+        </button>
+      </div>
+      <div class="navTwo">
+        <ul>
+          <li class="home active">Beranda</li>
+          <li class="aboutme">Tentang Saya</li>
+          <li class="skills">Keahlian</li>
+          <li class="portfolio">Portofolio</li>
+          <li class="contact">Kontak</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+      <!-- BgAnime -->
+      <div class="bgAnime">
+        <ul class="boxArea">
+          <li class="glass"></li>
+          <li class="glass"></li>
+          <li class="glass"></li>
+          <li class="glass"></li>
+          <li class="glass"></li>
+          <li class="glass"></li>
+        </ul>
+      </div>
+
+      <!-- Home -->
+      <section id="home">
+        <div class="containerHome">
+          <h1>Halo, Namaku</h1>
+          <h2 class="glass">ANDRI SETIAWAN</h2></h2>
+          <h3>Web Developer</h3>
+          <p>Saya Suka Belajar Bahasa Pemrograman. Untuk saat ini Saya masih Fokus Di Bagian Web Developer. Namun suatu saat Saya akan melanjutkan Di Bagian Backend Webdev.</p>
+          <button type="button" onclick="scrPort(portfolio)">Lihat Portfolio</button>
+        </div>
+      </section>
+
+      <!-- Aboutme -->
+      <section id="aboutme">
+        <div class="containerAboutme">
+          <div class="img glass">
+            <img src="assets/img/2.jpg" alt="Foto Andri Setiawan" />
+            <div></div>
+          </div>
+          <div class="ctn">
+            <h1>Tentang Saya <span>...</span></h1>
+            <p>Perkenalkan namaku Andri Setiawan. Lahir pada Boyolali 06 April 1988</p>
+            <blockquote class="glass">Usaha & Kerja Keras Akan Menghasilkan Pengalaman Yang Baru Sebagai Bekal Untuk Perjuangan Selanjutnya.</blockquote>
+            <div class="btn">
+              <a href="mailto:andriesetiawan.as583@gmail.com" target="_blank">Email Saya</a>
+              <a href="assets/cv.pdf" target="_blank">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="containerSkills">
+          <div class="img glass">
+            <img src="assets/img/fotoKomputer.jpg" alt="Foto Komputer" />
+          </div>
+          <div class="ctn">
+            <h1>
+              Keahlianku<span>Dibidang Web Developer <span>...</span></span>
+            </h1>
+            <div class="grid">
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="bx:bxl-html5" data-inline="false"></span>
+                HTML5
+              </a>
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="cib:php" data-inline="false"></span>
+                PHP
+              </a>
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="bx:bxl-css3" data-inline="false"></span>
+                CSS3
+              </a>
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="cib:mysql" data-inline="false"></span>
+                MySQL
+              </a>
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="bx:bxl-javascript" data-inline="false"></span>
+                JavaScript
+              </a>
+              <!--<a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="simple-icons:visualstudiocode" data-inline="false"></span>
+                VS Code
+              </a>
+             <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="simple-icons:bootstrap" data-inline="false"></span>
+                Bootstrap
+              </a>-->
+              <a href="#" class="glass" target="_blank">
+                <span class="iconify" data-icon="file-icons:sublime" data-inline="false"></span>
+                Sublime Text
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio">
+        <div class="containerPortfolio">
+          <h1>Portofolio</h1>
+          <div class="glass one">
+            <img src="assets/img/fotoKomputer.jpg" alt="Foto Komputer" />
+            <h2>Project Pertama<span>Aplikasi Website Ulala :)</span></h2>
+          </div>
+          <div class="glass two">
+            <img src="assets/img/fotoKomputer.jpg" alt="Foto Komputer" />
+            <h2>Project Kedua<span>Aplikasi Website Ulala :)</span></h2>
+          </div>
+          <div class="glass three">
+            <img src="assets/img/fotoKomputer.jpg" alt="Foto Komputer" />
+            <h2>Project Ketiga<span>Aplikasi Website Ulala :)</span></h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="containerContact glass">
+          <form name="contact-form">
+            <h1>Hubungi Saya</h1>
+            <h2 class="myAlert">
+              Pesan Sudah Terkirim !!
+              <span class="iconify" data-icon="carbon:close-filled" data-inline="false" onclick="hideNotif()"></span>
+            </h2>
+            <input class="glass" type="text" name="Nama-Lengkap" id="nama" placeholder="Nama Lengkap" autocomplete="off" />
+            <input class="glass" type="email" name="Email" id="email" placeholder="Alamat Email" autocomplete="off" />
+            <textarea class="glass" name="Pesan" id="pesan" placeholder="Pesan"></textarea>
+            <button type="submit">Kirimkan</button>
+          </form>
+          <footer>
+            <h1>Ikuti Saya</h1>
+            <div>
+              <a href="https://github.com/andriesetiawan" target="_blank">
+                <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false" style="font-size: 2.65rem; position: relative; top: -0.15rem"></span>
+              </a>
+              <a href="https://t.me/Andrie_Sawx" target="_blank">
+                <span class="iconify" data-icon="bx:bxl-telegram" data-inline="false"></span>
+              </a>
+              <a href="https://facebook.com/andri.setiawan.526?ref=bookmarks" target="_blank">
+                <span class="iconify" data-icon="mdi:facebook" data-inline="false"></span>
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=6289671615009" target="_blank">
+                <span class="iconify" data-icon="mdi:whatsapp" data-inline="false"></span>
+              </a>
+            </div>
+            <h2>
+              Dibuat Dengan
+              <i class="iconify" data-icon="clarity:heart-solid" data-inline="false"></i>
+              Oleh
+              <span>Cecep Maulana</span>
+            </h2>
+          </footer>
+        </div>
+      </section>
+    </div>
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!-- Script JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
