@@ -870,7 +870,7 @@ nav {
   #aboutme .img {
     width: 47.5%;
     height: auto;
-    border-radius: 5rem;
+    /*border-radius: 5rem;*/
     margin: 0;
     margin-right: 2.5%;
   }
